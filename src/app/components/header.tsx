@@ -134,8 +134,8 @@ const Header = () => {
           {/* Desktop Icons (Search, Cart, User) */}
           <div className="flex items-center space-x-4">
            <span  className="w-6 h-6 cursor-pointer"  > <FaSearch/></span>    
-                       <span  className="w-6 h-6 cursor-pointer" ><FaShoppingCart/></span>
-                     <span className="w-6 h-6 cursor-pointer" ><FaUserCircle /></span> 
+                       <span  className="w-8 h-8 cursor-pointer" ><FaShoppingCart/></span>
+                     <span className="w-8 h-8 cursor-pointer" ><FaUserCircle /></span> 
           </div>
         </div>
       </header>
