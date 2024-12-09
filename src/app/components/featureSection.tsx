@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import FeatureImage from "../../../public/images/Blocks.png";
+import FeatureImage from "../../../public/images/back.png";
 
 const FeatureFF = () => {
   return (
