@@ -1,5 +1,6 @@
 // CartPage.tsx
 import React from "react";
+import Image from "next/image";
 
 
 const CartPage: React.FC = () => {
@@ -39,11 +40,15 @@ const CartPage: React.FC = () => {
                   key={item.id}
                   className="flex items-center justify-between border-b py-4 last:border-0"
                 >
-                  <img
+                  <Image
+
                     src={item.image}
                     alt={item.name}
                     className="w-16 h-16 rounded-md"
-                  />
+                    width={100}
+                    height={100}
+                    />
+                
                   <div className="flex-1 px-4">
                     <h2 className="text-lg font-medium">{item.name}</h2>
                     <p className="text-sm text-gray-500">

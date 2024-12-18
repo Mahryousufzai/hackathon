@@ -88,11 +88,9 @@ const Header = () => {
                 </a>
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
-                <Link href="/about" className="hover:text-[#2A254B] text-[#333] block font-bold text-[15px]">About
-                   <a className="hover:text-[#2A254B] text-[#333] block font-bold text-[15px]">
-                    
-                  </a> 
-                 </Link>
+                <Link href="/about" className="hover:text-[#2A254B] text-[#333] block font-bold text-[15px]">
+                  About
+                </Link>
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
                 <a
