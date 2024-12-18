@@ -16,10 +16,10 @@ const Header = () => {
     <div>
       <header className="shadow-md font-sans tracking-wide relative z-50">
         {/* Top section with notification */}
-        <section className="flex items-center justify-between py-2 bg-[#2A254B] text-white px-10">
-          <p className="text-sm text-center w-full">
+        <section className="flex items-center justify-between py-2 bg-[#2A254B] text-white px-10"> 
+           <p className="text-sm text-center w-full">
             Free delivery on all orders over £50 with code easter checkout
-          </p>
+          </p> 
           <svg
             className="h-8 w-8 text-white"
             width="24"
@@ -34,12 +34,12 @@ const Header = () => {
             <path stroke="none" d="M0 0h24v24H0z" />
             <line x1="18" y1="6" x2="6" y2="18" />
             <line x1="6" y1="6" x2="18" y2="18" />
-          </svg>
-        </section>
+          </svg> 
+         </section> 
 
         {/* Main header */}
         <div className="flex flex-wrap items-center justify-between gap-4 px-10 py-4 bg-white min-h-[70px]">
-          <h1 className="flex justify-center items-center text-black text-4xl h-10">
+          <h1 className="flex justify-center items-center  text-black text-4xl h-10">
             Avion
           </h1>
 
@@ -89,10 +89,10 @@ const Header = () => {
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
                 <Link href="/about" className="hover:text-[#2A254B] text-[#333] block font-bold text-[15px]">About
-                  {/* <a className="hover:text-[#2A254B] text-[#333] block font-bold text-[15px]">
-                    About
-                  </a> */}
-                </Link>
+                   <a className="hover:text-[#2A254B] text-[#333] block font-bold text-[15px]">
+                    
+                  </a> 
+                 </Link>
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
                 <a
@@ -110,8 +110,8 @@ const Header = () => {
                   Source
                 </a>
               </li>
-            </ul>
-          </div>
+            </ul>    
+          </div> 
 
           {/* Mobile icon */}
           <div className="flex max-lg:ml-auto">

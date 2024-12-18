@@ -9,7 +9,7 @@ const Page = () => {
                     {/* Left Section: Product Image */}
                     <div className="flex-1">
                         <Image
-                            src={"/images/center.png"} // Replace with actual image URL
+                            src={"/images/chair.png"} // Replace with actual image URL
                             alt="The Dandy Chair"
                             className="w-full object-cover rounded-lg shadow-md"
                             width={100}
@@ -23,7 +23,7 @@ const Page = () => {
                             The Dandy Chair
                         </h1>
                         <p className="text-2xl text-gray-600 font-medium mb-6">£250</p>
-
+center
                         {/* Product Description */}
                         <p className="text-gray-700 text-base mb-6">
                             A timeless design, with premium materials features as one of our

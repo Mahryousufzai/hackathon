@@ -11,7 +11,7 @@ const FeatureSecond = () => {
         </div>
         <div className="ml-8 px-[56px]">
           <h1 className="text-2xl font-bold">
-            Our service isn’t just personal, it’s actually hyper personally exquisite
+            Our service isnt just personal, its actually hyper personally exquisite
           </h1>
           <p className="mt-4 text-lg text-gray-600">
             When we started Avion, the idea was simple. Make high-quality furniture affordable and available for the mass market. Handmade, and lovingly crafted furniture and homeware is what we live, breathe, and design, so our Chelsea boutique became the hotbed for the London interior design community.

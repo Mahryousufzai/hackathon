@@ -1,6 +1,7 @@
 // CartPage.tsx
 import React from "react";
 
+
 const CartPage: React.FC = () => {
   const cartItems = [
     {
@@ -8,22 +9,16 @@ const CartPage: React.FC = () => {
       name: "Product 1",
       price: 25,
       quantity: 2,
-      image: "/images/bottles.png", // Placeholder image URL
+      image: "/images/bottle.png", // Placeholder image URL
     },
     {
       id: 2,
       name: "Product 2",
       price: 15,
       quantity: 1,
-      image: "/images/blocks.png", // Placeholder image URL
+      image: "/images/flyovers.png", // Placeholder image URL
     },
-    {
-      id: 3,
-      name: "Product 3",
-      price: 40,
-      quantity: 3,
-      image: "/images/center.png", // Placeholder image URL
-    },
+    
   ];
 
   const totalPrice = cartItems.reduce(

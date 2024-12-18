@@ -1,12 +1,17 @@
-const View=()=>{ 
-    return(
-        <div className="flex h-[277] w-[1440]">
-            <div className="ml-[100px] mb-[100px] mt-[100px] font-[Clash-Display] text-[36px]   leading-[50.4px] text-left   w-[704px] h-[100px] top-[88px] left-[128px]">A brand built on the love of craftmanship,<br />
-            quality and outstanding customer service</div>
-            <div><button className="bg-gray-100 ml-[300px]  text-black text-base tracking-wide py-3.5 px-6    eml-[100px] mb-[100px] mt-[100px]">
-            View our Product
-          </button></div>
-        </div>
-    )
+import Image from 'next/image'
+
+const ImageComponent = () => {
+  return (
+    <div className="flex justify-center items-center w-full h-[444px] m-0 p-0">
+      <Image
+        src="/images/landing.png" // Replace with your image path
+        alt="Descriptive text"
+        width={1440}
+        height={444}
+        className="object-cover w-full" 
+      />
+    </div>
+  )
 }
-export default View;
+
+export default ImageComponent
