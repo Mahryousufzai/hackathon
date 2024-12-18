@@ -30,7 +30,7 @@ const Page = () => {
                         <p className="mt-2">The Lucy Lamp</p>
                         <p className="mt-2">£399</p></div>
                 </div>
-                <div className="flex  justify-evenly">
+                <div className="flex gap-10 justify-evenly">
                     <div><Image src={"/images/bulbs.png"} alt="" title="" width={300} height={200} />
                         <p className="mt-2">The Dandy chair</p>
                         <p className="mt-2">£250</p></div>
@@ -44,7 +44,7 @@ const Page = () => {
                         <p className="mt-2">The Lucy Lamp</p>
                         <p className="mt-2">£399</p></div>
                 </div>
-                <div className="flex  justify-evenly">
+                <div className="flex gap-10  justify-evenly">
                     <div><Image src={"/images/Right.jpg"} alt="" title="" width={300} height={200} />
                         <p className="mt-2">The Dandy chair</p>
                         <p className="mt-2">£250</p></div>

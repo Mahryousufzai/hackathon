@@ -1,10 +1,11 @@
+
 import React from "react";
 
 const DownHeader = () => {
     return (
       <>
-        <div className="w-full h-[100px]  px-[20px] md:px-[318px] py-[40px] bg-white shadow-md">
-          <ul className="flex flex-wrap justify-between text-gray-800 text-sm font-medium">
+        <div className="w-full h-[10px]  md:px-[100px] py-6 bg-white">
+          <ul className="flex justify-between text-gray-800 text-sm font-medium">
             <li className="text-gray-400 cursor-pointer">All Products</li>
             <li className="text-gray-400 cursor-pointer">Plan Posts</li>
             <li className="text-gray-400 cursor-pointer">Ceramics</li>
@@ -20,3 +21,4 @@ const DownHeader = () => {
   };
   
   export default DownHeader;
+  

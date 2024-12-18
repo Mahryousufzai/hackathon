@@ -11,7 +11,7 @@ const ProductSingle=()=>{
         <div className="flex gap-5 p-6 pl-48" >
 
 
-            <div><Image src={Photo} alt="" title=""   className="w-full object-cover rounded-lg shadow-md"  width={100}  height={100}/>
+            <div><Image src={Photo} alt="" title=""   className="w-full object-cover "  width={100}  height={100}/>
             <p className="mt-2">The Dandy chair</p>
             <p className="mt-2">£250</p></div>
             <div><Image src={Photo1} alt="" title=""/>
