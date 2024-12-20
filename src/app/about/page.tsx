@@ -7,23 +7,28 @@ const AboutPage = () => {
             <div className="flex h-[277] w-[1440]">
                 <div className="ml-[100px] mb-[100px] mt-[100px] font-[Clash-Display] text-[36px]   leading-[50.4px] text-left   w-[704px] h-[100px] top-[88px] left-[128px]">A brand built on the love of craftmanship,<br />
                     quality and outstanding customer service</div>
-                <div><button className="bg-gray-100 ml-[300px]  text-black text-base tracking-wide py-3.5 px-6    eml-[100px] mb-[100px] mt-[100px]">
+                <div><button className="bg-gray-100 ml-[200px]  text-black text-base tracking-wide py-3.5 px-6    eml-[100px] mb-[100px] mt-[100px]">
                     View our Product
                 </button></div>
             </div>
 
-            <div className="w-[1440px] h-[598px] flex items-center justify-center px-[120px] gap-[36px]">
-                <div className="w-[630px] h-[430px] bg-[#2A254B]   px-[64px] py-[54px]">
-                    <h1 className="font-clash-display text-[32px] text-[#FFFFFF] font-normal leading-[39.36px] text-left underline-position-from-font decoration-none w-[383px] h-[39px]  ">It started with a small idea</h1>
-                    <p className="font-satoshi text-[18px] font-normal leading-[24.3px] px-[24] text-white text-left underline-position-from-font   w-[495px] h-[48px]">A global brand with local beginnings, our story begain in a small studio in South London in early 2014</p>
-                    <div className="mt-6 text-center md:text-right">
-                        <button className="w-full md:w-auto px-6 py-3 bg-gray-800 text-white font-medium rounded-lg left-[64px] p-[16px_32px] gap-[10px]  hover:bg-gray-900 ">
-                            View Collection
-                        </button>
-                    </div>
-                </div>
-                <div className="w-[630px] h-[430px] flex items-center justify-center">
-                    <Image src={"/images/Blocks.png"} alt="image" height={430} width={630} />
+            <div className="w-full h-auto flex items-center justify-center px-4 sm:px-8 md:px-[120px] gap-6 sm:gap-[36px] ">
+      {/* Left Section */}
+      <div className="w-full sm:w-[630px] bg-[#2A254B] p-6 sm:px-[64px] sm:py-[54px] text-white">
+        <h1 className="font-clash-display text-[24px] sm:text-[32px] font-normal leading-snug sm:leading-[39.36px] text-left underline decoration-transparent mb-4">
+          It started with a small idea
+        </h1>
+        <p className="font-satoshi text-[16px] sm:text-[18px] leading-relaxed text-left mb-6">
+          A global brand with local beginnings, our story began in a small studio in South London in early 2014.
+        </p>
+        <div className="text-left">
+          <button className="bg-gray-800 text-white px-6 py-3 font-medium hover:bg-gray-900 transition-all">
+            View Collection
+          </button>
+        </div>
+      </div>
+                <div className="w-[630px] h-[430px] flex items-start justify-evenly">
+                    <Image src={"/images/back.png"} alt="image" height={430} width={630} />
                 </div>
             </div>
 

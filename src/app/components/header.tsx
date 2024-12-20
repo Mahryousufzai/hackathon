@@ -49,43 +49,43 @@ const Header = () => {
           >
             <ul className="lg:flex lg:gap-x-5 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50">
               <li className="mb-6 hidden max-lg:block">
-                <a href="javascript:void(0)">
+                <Link href="javascript:void(0)">
                   <h1 className="flex justify-center items-center text-black text-4xl h-10">
                     Avion
                   </h1>
-                </a>
+                </Link>
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
-                <a
-                  href="javascript:void(0)"
+                <Link
+                  href="/"
                   className="hover:text-[#2A254B] text-[#2A254B] block font-bold text-[15px]"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
-                <a
-                  href="javascript:void(0)"
+                <Link
+                  href="/product"
                   className="hover:text-[#2A254B] text-[#333] block font-bold text-[15px]"
                 >
-                  Team
-                </a>
+                  Product
+                </Link>
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
-                <a
-                  href="javascript:void(0)"
+                <Link
+                  href="/feature"
                   className="hover:text-[#2A254B] text-[#333] block font-bold text-[15px]"
                 >
                   Feature
-                </a>
+                </Link>
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
-                <a
-                  href="javascript:void(0)"
+                <Link
+                  href="/cart"
                   className="hover:text-[#2A254B] text-[#333] block font-bold text-[15px]"
                 >
-                  Blog
-                </a>
+                  Cart
+                </Link>
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
                 <Link href="/about" className="hover:text-[#2A254B] text-[#333] block font-bold text-[15px]">
@@ -93,20 +93,20 @@ const Header = () => {
                 </Link>
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
-                <a
-                  href="javascript:void(0)"
+                <Link
+                  href="/contact"
                   className="hover:text-[#2A254B] text-[#333] block font-bold text-[15px]"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
-                <a
-                  href="javascript:void(0)"
+                <Link
+                  href="/products"
                   className="hover:text-[#2A254B] text-[#333] block font-bold text-[15px]"
                 >
-                  Source
-                </a>
+                  Collections
+                </Link>
               </li>
             </ul>    
           </div> 
